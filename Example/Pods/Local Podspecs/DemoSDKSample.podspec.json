@@ -1,0 +1,68 @@
+{
+  "name": "DemoSDKSample",
+  "version": "0.1.0",
+  "summary": "A short description of DemoSDKSample.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Bones/DemoSDKSample",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Bones": "Bones@qqc88.net"
+  },
+  "source": {
+    "git": "https://github.com/Bones/DemoSDKSample.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "DemoSDKSample/Classes/**/*",
+  "vendored_frameworks": "DemoSDKSample/Classes/*.framework",
+  "frameworks": [
+    "UIKit",
+    "CoreLocation",
+    "Foundation"
+  ],
+  "resource_bundles": {
+    "LiveSDKIcon": [
+      "LiveSDKIcon/*.png"
+    ]
+  },
+  "dependencies": {
+    "AFNetworking": [
+
+    ],
+    "SDWebImage": [
+
+    ],
+    "MJRefresh": [
+
+    ],
+    "MJExtension": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "MBProgressHUD": [
+      "~> 0.9.2"
+    ],
+    "BlocksKit": [
+
+    ],
+    "QBImagePickerController": [
+
+    ],
+    "CWStatusBarNotification": [
+
+    ],
+    "TXIMSDK_iOS": [
+
+    ],
+    "TXLiteAVSDK_Professional": [
+
+    ]
+  }
+}

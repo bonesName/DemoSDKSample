@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		050FEE4C9B2EBC10F19430D6 /* Pods_DemoSDKSample_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48A77CD4E4FAB0E170355242 /* Pods_DemoSDKSample_Tests.framework */; };
+		41D1417D0488B16E0BB301FF /* libPods-DemoSDKSample_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 573DB11E64942B701BD21A57 /* libPods-DemoSDKSample_Example.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -21,9 +21,9 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		6F3DE589F2FC85C1C8802DC6 /* libPods-DemoSDKSample_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4FFAF0A980AA3A9361C1AD2 /* libPods-DemoSDKSample_Tests.a */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		FE445D02206F63ED50C5D0A3 /* Pods_DemoSDKSample_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B40FD3112BF1CD18492368 /* Pods_DemoSDKSample_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,12 +38,11 @@
 
 /* Begin PBXFileReference section */
 		0D2C0D0B9F41E11C528D3BDF /* Pods-DemoSDKSample_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoSDKSample_Tests.release.xcconfig"; path = "Target Support Files/Pods-DemoSDKSample_Tests/Pods-DemoSDKSample_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		19E306FDDB9DD2D42481BA30 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		22B40FD3112BF1CD18492368 /* Pods_DemoSDKSample_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoSDKSample_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		27D1C53E6A558116E8595CFA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		19E306FDDB9DD2D42481BA30 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		27D1C53E6A558116E8595CFA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		2C61F678558C1809B2C9FC94 /* Pods-DemoSDKSample_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoSDKSample_Example.debug.xcconfig"; path = "Target Support Files/Pods-DemoSDKSample_Example/Pods-DemoSDKSample_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		48A77CD4E4FAB0E170355242 /* Pods_DemoSDKSample_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoSDKSample_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		50B83A0C89475210EFEA911C /* DemoSDKSample.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DemoSDKSample.podspec; path = ../DemoSDKSample.podspec; sourceTree = "<group>"; };
+		50B83A0C89475210EFEA911C /* DemoSDKSample.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DemoSDKSample.podspec; path = ../DemoSDKSample.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		573DB11E64942B701BD21A57 /* libPods-DemoSDKSample_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemoSDKSample_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* DemoSDKSample_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoSDKSample_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -66,6 +65,7 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C49E0697DE772FDBE3278579 /* Pods-DemoSDKSample_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoSDKSample_Example.release.xcconfig"; path = "Target Support Files/Pods-DemoSDKSample_Example/Pods-DemoSDKSample_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D4FFAF0A980AA3A9361C1AD2 /* libPods-DemoSDKSample_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemoSDKSample_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7664FF67C45AC7359CD6B3B /* Pods-DemoSDKSample_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoSDKSample_Tests.debug.xcconfig"; path = "Target Support Files/Pods-DemoSDKSample_Tests/Pods-DemoSDKSample_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				FE445D02206F63ED50C5D0A3 /* Pods_DemoSDKSample_Example.framework in Frameworks */,
+				41D1417D0488B16E0BB301FF /* libPods-DemoSDKSample_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				050FEE4C9B2EBC10F19430D6 /* Pods_DemoSDKSample_Tests.framework in Frameworks */,
+				6F3DE589F2FC85C1C8802DC6 /* libPods-DemoSDKSample_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +123,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				22B40FD3112BF1CD18492368 /* Pods_DemoSDKSample_Example.framework */,
-				48A77CD4E4FAB0E170355242 /* Pods_DemoSDKSample_Tests.framework */,
+				573DB11E64942B701BD21A57 /* libPods-DemoSDKSample_Example.a */,
+				D4FFAF0A980AA3A9361C1AD2 /* libPods-DemoSDKSample_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -193,7 +193,6 @@
 				D7664FF67C45AC7359CD6B3B /* Pods-DemoSDKSample_Tests.debug.xcconfig */,
 				0D2C0D0B9F41E11C528D3BDF /* Pods-DemoSDKSample_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -209,6 +208,7 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				EF8D2877A341AC686ECFF9C3 /* [CP] Embed Pods Frameworks */,
+				4401C28899E97271C90818C6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -258,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -295,6 +296,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		4401C28899E97271C90818C6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DemoSDKSample_Example/Pods-DemoSDKSample_Example-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/DemoSDKSample/LiveSDKIcon.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/QBImagePickerController/QBImagePicker.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LiveSDKIcon.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/QBImagePicker.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DemoSDKSample_Example/Pods-DemoSDKSample_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		8DAE6DCD7F9755859B723695 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -324,11 +347,11 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-DemoSDKSample_Example/Pods-DemoSDKSample_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/DemoSDKSample/DemoSDKSample.framework",
+				"${PODS_ROOT}/TXIMSDK_iOS/ImSDK.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DemoSDKSample.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImSDK.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
